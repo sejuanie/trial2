@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musubi</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Ruwudu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      :root {
+        --color-gray-200: #414040;
+        background-color: var(--color-white);
+        --font-main: 'Readex Pro', sans-serif;
+        --font-secondary: 'Ruwudu', sans-serif;
+      }
+    </style>
+
+</head>
+
+<!-- FIRST PAGE -->
+<body id="login" class="w-screen overflow-x-hidden scroll-smooth">
+        <section class="h-screen w-full flex flex-col justify-center items-center bg-cover bg-center" 
+         style="background-image: url('photos/login-bg.png'); font-family: var(--font-main);">
+    
+        <img src="photos/logo.png" alt="Musubi Logo" class="mx-auto mb-0 w-62 h-60">
+
+    <a href="#menu" class="bg-yellow-600 hover:bg-yellow-800 transform transition duration-300 hover:scale-110 text-white tracking-[0.15em] text-xl text-shadow-md py-2 px-11 rounded-full mt-10 mx-auto w-fit transition-all">
+        DIG IN
+    </a>
+
+    <h3 class="absolute bottom-10 left-1/2 -translate-x-1/2 text-center text-amber-800 tracking-[0.25em] text-lg" style="font-family: var(--font-secondary);">
+    The Art of Onigiri, Perfected for Your Taste
+    </h3>
+</section>
+<!-- END -->
+
+<!-- SECOND PAGE -->
+<!-- navigation -->
+<section id="menu" class="min-h-screen w-screen" style="font-family: var(--font-secondary); color: var(--color-gray-200);">
+    <header class="relative w-full h-[250px] overflow-hidden">
+    <img src="photos/header.png" alt="Onigiri" class="absolute inset-0 h-full w-full object-cover"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent">
+    </div>
+    
+        <nav class="relative z-10 flex items-center justify-between px-10 pt-4"> 
+            <img src="photos/logo.png" alt="Logo" class="mx-auto mb-10 w-38 h-36" style="margin-top: 10px; margin-left: 60px;">
+            <ul class="flex items-center space-x-10 lg:space-x-30 text-xl md:text-2xl font-semibold" style="margin-top: 10px; margin-right: 60px;">
+
+            <li>
+                <a href="#foodmenu" class="inline-flex items-center justify-center transition duration-300 hover:bg-[#ABA07F] hover:text-white hover:-translate-y-1 px-9 py-3 rounded-full transition-all">
+                    MENU
+                </a>
+            </li>
+
+            <li>
+                <a href="#ambience" class="inline-flex items-center justify-center transition duration-300 hover:bg-[#ABA07F] hover:text-white hover:-translate-y-1 px-9 py-3 rounded-full transition-all">
+                    AMBIENCE
+                </a>
+            </li>
+
+            <li>
+                <a href="#reserve"class="inline-flex items-center justify-center transition duration-300 hover:bg-[#ABA07F] hover:text-white hover:-translate-y-1 px-9 py-3 rounded-full transition-all">
+                    RESERVATIONS
+                </a>
+            </li>
+            
+            </ul>
+        </nav>
+    </header>
+
+<!-- actual menu -->
+    <main class="bg-white min-h-screen p-10">
+        <section id="foodmenu">
+            <h2 class="text-2xl text-stone-800">Our Menu</h2>
+            <p class="mt-4 text-stone-600">Content starts here on a solid white background...</p>
+        </section>
+    </main>
+        </nav>
+</section>
+
+</header>
+<!-- END -->
+
+ <!-- AMBIENCE PAGE -->
+
+    <!-- <nav>   
+        <div class="text-center">
+            <img src="photos/logo.png" alt="Musubi Menu Logo" class="mx-auto mb-10 w-24 h-20"> --> 
+            <!-- <ul>
+                <a href="#home">HOME</a>
+            </ul>
+            <ul> -->
+                <!-- <a href="#categories">CATEGORIES</a>
+            </ul> -->
+            <!-- <ul>
+                <a href="#ratings">RATINGS</a>
+            </ul> -->
+        <!-- </div>
+    </nav> 
+</section>
+<!-- END -->
+
+ <!-- RESERVATIONS PAGE -->
+<!-- <section id="reserve" class="min-h-screen w-screen py-20 bg-stone-300 flex flex-col items-center">
+    <nav>   
+        <div class="text-center">
+            <img src="photos/logo.png" alt="Musubi Menu Logo" class="mx-auto mb-10 w-24 h-20"> -->
+            <!-- <ul>
+                <a href="#home">HOME</a>
+            </ul> -->
+            <!-- <ul>
+                <a href="#categories">CATEGORIES</a>
+            </ul> -->
+            <!-- <ul>
+                <a href="#ratings">RATINGS</a>
+            </ul> 
+        </div>
+    </nav> 
+</section> -->
+<!-- END -->
+
+</body>
+</html>
